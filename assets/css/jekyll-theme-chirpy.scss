@@ -1,0 +1,21 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+// 👇 your custom style overrides
+body {
+  background-color: #fefefe;
+  font-family: 'Fira Code', Optima, sans-serif;
+}
+
+.post-title {
+  color: #336699;
+}

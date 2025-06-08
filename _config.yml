@@ -119,10 +119,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: "RedaSalhi/redasalhi.github.io"
+    repo_id: "R_kgDOO4Orng"
+    category: "Ideas"
+    category_id: "DIC_kwDOO4Orns4CrNNF"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
